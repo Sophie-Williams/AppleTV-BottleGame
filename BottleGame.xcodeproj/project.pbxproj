@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B6C5C9B1DEF40EF003A8E5F /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6C5C9A1DEF40EF003A8E5F /* SettingsController.swift */; };
 		1BD57A011DE7BFC900F550C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD57A001DE7BFC900F550C1 /* AppDelegate.swift */; };
 		1BD57A031DE7BFC900F550C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD57A021DE7BFC900F550C1 /* ViewController.swift */; };
 		1BD57A061DE7BFC900F550C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57A041DE7BFC900F550C1 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6C5C9A1DEF40EF003A8E5F /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		1BD579FD1DE7BFC900F550C1 /* BottleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD57A001DE7BFC900F550C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BD57A021DE7BFC900F550C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				1BD57A001DE7BFC900F550C1 /* AppDelegate.swift */,
 				1BD57A021DE7BFC900F550C1 /* ViewController.swift */,
+				1B6C5C9A1DEF40EF003A8E5F /* SettingsController.swift */,
 				1BD57A041DE7BFC900F550C1 /* Main.storyboard */,
 				1BD57A071DE7BFC900F550C1 /* Assets.xcassets */,
 				1BD57A091DE7BFC900F550C1 /* Info.plist */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6C5C9B1DEF40EF003A8E5F /* SettingsController.swift in Sources */,
 				1BD57A031DE7BFC900F550C1 /* ViewController.swift in Sources */,
 				1BD57A011DE7BFC900F550C1 /* AppDelegate.swift in Sources */,
 			);
@@ -400,6 +404,7 @@
 				1BD57A191DE7BFC900F550C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BD57A1A1DE7BFC900F550C1 /* Build configuration list for PBXNativeTarget "BottleGameTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				1BD57A1C1DE7BFC900F550C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

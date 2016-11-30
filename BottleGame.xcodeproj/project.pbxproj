@@ -13,6 +13,14 @@
 		1BD57A061DE7BFC900F550C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57A041DE7BFC900F550C1 /* Main.storyboard */; };
 		1BD57A081DE7BFC900F550C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57A071DE7BFC900F550C1 /* Assets.xcassets */; };
 		1BD57A131DE7BFC900F550C1 /* BottleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD57A121DE7BFC900F550C1 /* BottleGameTests.swift */; };
+		827939A61DEF97D000D82A6D /* libAppLovinTVOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 827939A51DEF97D000D82A6D /* libAppLovinTVOS.a */; };
+		827939AA1DEF987800D82A6D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827939A91DEF987800D82A6D /* AdSupport.framework */; };
+		827939AC1DEF987D00D82A6D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827939AB1DEF987D00D82A6D /* AVFoundation.framework */; };
+		827939AE1DEF988700D82A6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827939AD1DEF988700D82A6D /* CoreGraphics.framework */; };
+		827939B01DEF988B00D82A6D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827939AF1DEF988B00D82A6D /* CoreMedia.framework */; };
+		827939B21DEF989500D82A6D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827939B11DEF989500D82A6D /* StoreKit.framework */; };
+		827939B41DEF989B00D82A6D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827939B31DEF989B00D82A6D /* SystemConfiguration.framework */; };
+		827939B61DEF98A100D82A6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827939B51DEF98A100D82A6D /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,42 @@
 		1BD57A0E1DE7BFC900F550C1 /* BottleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD57A121DE7BFC900F550C1 /* BottleGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleGameTests.swift; sourceTree = "<group>"; };
 		1BD57A141DE7BFC900F550C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		827939881DEF820B00D82A6D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		8279398B1DEF97D000D82A6D /* ALAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAd.h; sourceTree = "<group>"; };
+		8279398C1DEF97D000D82A6D /* ALAdDisplayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdDisplayDelegate.h; sourceTree = "<group>"; };
+		8279398D1DEF97D000D82A6D /* ALAdLoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdLoadDelegate.h; sourceTree = "<group>"; };
+		8279398E1DEF97D000D82A6D /* ALAdRewardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdRewardDelegate.h; sourceTree = "<group>"; };
+		8279398F1DEF97D000D82A6D /* ALAdService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdService.h; sourceTree = "<group>"; };
+		827939901DEF97D000D82A6D /* ALAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdSize.h; sourceTree = "<group>"; };
+		827939911DEF97D000D82A6D /* ALAdType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdType.h; sourceTree = "<group>"; };
+		827939921DEF97D000D82A6D /* ALAdUpdateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdUpdateDelegate.h; sourceTree = "<group>"; };
+		827939931DEF97D000D82A6D /* ALAdVideoPlaybackDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdVideoPlaybackDelegate.h; sourceTree = "<group>"; };
+		827939941DEF97D000D82A6D /* ALAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdView.h; sourceTree = "<group>"; };
+		827939951DEF97D000D82A6D /* ALAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAnnotations.h; sourceTree = "<group>"; };
+		827939961DEF97D000D82A6D /* ALErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALErrorCodes.h; sourceTree = "<group>"; };
+		827939971DEF97D000D82A6D /* ALEventService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEventService.h; sourceTree = "<group>"; };
+		827939981DEF97D000D82A6D /* ALEventTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEventTypes.h; sourceTree = "<group>"; };
+		827939991DEF97D000D82A6D /* ALIncentivizedInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALIncentivizedInterstitialAd.h; sourceTree = "<group>"; };
+		8279399A1DEF97D000D82A6D /* ALInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALInterstitialAd.h; sourceTree = "<group>"; };
+		8279399B1DEF97D000D82A6D /* ALNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNativeAd.h; sourceTree = "<group>"; };
+		8279399C1DEF97D000D82A6D /* ALNativeAdLoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNativeAdLoadDelegate.h; sourceTree = "<group>"; };
+		8279399D1DEF97D000D82A6D /* ALNativeAdPrecacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNativeAdPrecacheDelegate.h; sourceTree = "<group>"; };
+		8279399E1DEF97D000D82A6D /* ALNativeAdService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNativeAdService.h; sourceTree = "<group>"; };
+		8279399F1DEF97D000D82A6D /* ALPostbackDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALPostbackDelegate.h; sourceTree = "<group>"; };
+		827939A01DEF97D000D82A6D /* ALPostbackService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALPostbackService.h; sourceTree = "<group>"; };
+		827939A11DEF97D000D82A6D /* ALSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdk.h; sourceTree = "<group>"; };
+		827939A21DEF97D000D82A6D /* ALSdkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdkSettings.h; sourceTree = "<group>"; };
+		827939A31DEF97D000D82A6D /* ALSwiftHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSwiftHeaders.h; sourceTree = "<group>"; };
+		827939A41DEF97D000D82A6D /* ALTargetingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTargetingData.h; sourceTree = "<group>"; };
+		827939A51DEF97D000D82A6D /* libAppLovinTVOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppLovinTVOS.a; sourceTree = "<group>"; };
+		827939A91DEF987800D82A6D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		827939AB1DEF987D00D82A6D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		827939AD1DEF988700D82A6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		827939AF1DEF988B00D82A6D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		827939B11DEF989500D82A6D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		827939B31DEF989B00D82A6D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		827939B51DEF98A100D82A6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		827939B71DEF9A2500D82A6D /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +87,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				827939B61DEF98A100D82A6D /* UIKit.framework in Frameworks */,
+				827939B41DEF989B00D82A6D /* SystemConfiguration.framework in Frameworks */,
+				827939B21DEF989500D82A6D /* StoreKit.framework in Frameworks */,
+				827939B01DEF988B00D82A6D /* CoreMedia.framework in Frameworks */,
+				827939AE1DEF988700D82A6D /* CoreGraphics.framework in Frameworks */,
+				827939AC1DEF987D00D82A6D /* AVFoundation.framework in Frameworks */,
+				827939AA1DEF987800D82A6D /* AdSupport.framework in Frameworks */,
+				827939A61DEF97D000D82A6D /* libAppLovinTVOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +114,7 @@
 				1BD579FF1DE7BFC900F550C1 /* BottleGame */,
 				1BD57A111DE7BFC900F550C1 /* BottleGameTests */,
 				1BD579FE1DE7BFC900F550C1 /* Products */,
+				827939A81DEF987800D82A6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +130,8 @@
 		1BD579FF1DE7BFC900F550C1 /* BottleGame */ = {
 			isa = PBXGroup;
 			children = (
+				827939B71DEF9A2500D82A6D /* bridge.h */,
+				827939891DEF97D000D82A6D /* applovin-tvos-sdk-3.2.0 */,
 				1BD57A001DE7BFC900F550C1 /* AppDelegate.swift */,
 				1BD57A021DE7BFC900F550C1 /* ViewController.swift */,
 				1B6C5C9A1DEF40EF003A8E5F /* SettingsController.swift */,
@@ -94,6 +149,62 @@
 				1BD57A141DE7BFC900F550C1 /* Info.plist */,
 			);
 			path = BottleGameTests;
+			sourceTree = "<group>";
+		};
+		827939891DEF97D000D82A6D /* applovin-tvos-sdk-3.2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				8279398A1DEF97D000D82A6D /* headers */,
+				827939A51DEF97D000D82A6D /* libAppLovinTVOS.a */,
+			);
+			path = "applovin-tvos-sdk-3.2.0";
+			sourceTree = "<group>";
+		};
+		8279398A1DEF97D000D82A6D /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				8279398B1DEF97D000D82A6D /* ALAd.h */,
+				8279398C1DEF97D000D82A6D /* ALAdDisplayDelegate.h */,
+				8279398D1DEF97D000D82A6D /* ALAdLoadDelegate.h */,
+				8279398E1DEF97D000D82A6D /* ALAdRewardDelegate.h */,
+				8279398F1DEF97D000D82A6D /* ALAdService.h */,
+				827939901DEF97D000D82A6D /* ALAdSize.h */,
+				827939911DEF97D000D82A6D /* ALAdType.h */,
+				827939921DEF97D000D82A6D /* ALAdUpdateDelegate.h */,
+				827939931DEF97D000D82A6D /* ALAdVideoPlaybackDelegate.h */,
+				827939941DEF97D000D82A6D /* ALAdView.h */,
+				827939951DEF97D000D82A6D /* ALAnnotations.h */,
+				827939961DEF97D000D82A6D /* ALErrorCodes.h */,
+				827939971DEF97D000D82A6D /* ALEventService.h */,
+				827939981DEF97D000D82A6D /* ALEventTypes.h */,
+				827939991DEF97D000D82A6D /* ALIncentivizedInterstitialAd.h */,
+				8279399A1DEF97D000D82A6D /* ALInterstitialAd.h */,
+				8279399B1DEF97D000D82A6D /* ALNativeAd.h */,
+				8279399C1DEF97D000D82A6D /* ALNativeAdLoadDelegate.h */,
+				8279399D1DEF97D000D82A6D /* ALNativeAdPrecacheDelegate.h */,
+				8279399E1DEF97D000D82A6D /* ALNativeAdService.h */,
+				8279399F1DEF97D000D82A6D /* ALPostbackDelegate.h */,
+				827939A01DEF97D000D82A6D /* ALPostbackService.h */,
+				827939A11DEF97D000D82A6D /* ALSdk.h */,
+				827939A21DEF97D000D82A6D /* ALSdkSettings.h */,
+				827939A31DEF97D000D82A6D /* ALSwiftHeaders.h */,
+				827939A41DEF97D000D82A6D /* ALTargetingData.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		827939A81DEF987800D82A6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				827939B51DEF98A100D82A6D /* UIKit.framework */,
+				827939B31DEF989B00D82A6D /* SystemConfiguration.framework */,
+				827939B11DEF989500D82A6D /* StoreKit.framework */,
+				827939AF1DEF988B00D82A6D /* CoreMedia.framework */,
+				827939AD1DEF988700D82A6D /* CoreGraphics.framework */,
+				827939AB1DEF987D00D82A6D /* AVFoundation.framework */,
+				827939A91DEF987800D82A6D /* AdSupport.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +257,8 @@
 				TargetAttributes = {
 					1BD579FC1DE7BFC800F550C1 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 3YGLEX9HN3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = X72G5VQBS8;
+						ProvisioningStyle = Manual;
 					};
 					1BD57A0D1DE7BFC900F550C1 = {
 						CreatedOnToolsVersion = 8.1;
@@ -229,6 +340,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1BD57A051DE7BFC900F550C1 /* Base */,
+				827939881DEF820B00D82A6D /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -240,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -289,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -332,11 +446,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 3YGLEX9HN3;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = X72G5VQBS8;
 				INFOPLIST_FILE = BottleGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kondranton.BottleGame;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BottleGame/applovin-tvos-sdk-3.2.0",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drobinin.SpinTheBottle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ee0f6169-bdea-40e0-928f-a379c47c3cec";
+				PROVISIONING_PROFILE_SPECIFIER = SpinTheBottle;
+				SWIFT_OBJC_BRIDGING_HEADER = BottleGame/bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -346,11 +469,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 3YGLEX9HN3;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = X72G5VQBS8;
 				INFOPLIST_FILE = BottleGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kondranton.BottleGame;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BottleGame/applovin-tvos-sdk-3.2.0",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drobinin.SpinTheBottle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ee0f6169-bdea-40e0-928f-a379c47c3cec";
+				PROVISIONING_PROFILE_SPECIFIER = SpinTheBottle;
+				SWIFT_OBJC_BRIDGING_HEADER = BottleGame/bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

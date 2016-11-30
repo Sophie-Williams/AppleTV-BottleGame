@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "4"; ObjectID = "20q-xf-drh"; */
+"20q-xf-drh.text" = "4";
+
+/* Class = "UILabel"; text = "7"; ObjectID = "A33-9w-8oW"; */
+"A33-9w-8oW.text" = "7";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "AAm-xY-q9d"; */
+"AAm-xY-q9d.normalTitle" = "2";
+
+/* Class = "UILabel"; text = "8"; ObjectID = "Acn-NL-qmd"; */
+"Acn-NL-qmd.text" = "8";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "BOO-EL-b4d"; */
+"BOO-EL-b4d.normalTitle" = "5";
+
+/* Class = "UILabel"; text = "How many are going to play?"; ObjectID = "DFv-JF-MAg"; */
+"DFv-JF-MAg.text" = "Укажите количество игроков";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "NFB-f5-Qhj"; */
+"NFB-f5-Qhj.text" = "1";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "Ty1-6U-CMX"; */
+"Ty1-6U-CMX.normalTitle" = "3";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "Y5I-tt-5Nv"; */
+"Y5I-tt-5Nv.normalTitle" = "4";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "ddn-ZS-IIw"; */
+"ddn-ZS-IIw.normalTitle" = "6";
+
+/* Class = "UILabel"; text = "6"; ObjectID = "fKd-pj-Rut"; */
+"fKd-pj-Rut.text" = "6";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "hn9-Xi-VuG"; */
+"hn9-Xi-VuG.text" = "3";
+
+/* Class = "UILabel"; text = "5"; ObjectID = "jGD-7f-UGI"; */
+"jGD-7f-UGI.text" = "5";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "jS7-0I-ONf"; */
+"jS7-0I-ONf.normalTitle" = "7";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "n5z-wS-hKL"; */
+"n5z-wS-hKL.normalTitle" = "8";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "nEj-Ka-biO"; */
+"nEj-Ka-biO.text" = "2";

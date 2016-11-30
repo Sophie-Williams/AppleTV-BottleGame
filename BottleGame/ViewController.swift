@@ -14,6 +14,7 @@ class ViewController: UIViewController, CAAnimationDelegate {
   @IBOutlet weak var spinBottleButton: UIButton!
   
   @IBAction func actionButtonTap(_ sender: UIButton) {
+    showAdsIfPossible()
     spinBottle()
     spinBottleButton.isEnabled = false
   }
@@ -28,6 +29,24 @@ class ViewController: UIViewController, CAAnimationDelegate {
       label.isHidden = num > playersNumber
     }
     
+  }
+  
+  func showAnAd() {
+    if ALInterstitialAd.isReadyForDisplay() {
+      ALInterstitialAd.show()
+      UserDefaults().set(0, forKey: "games")
+    } else{
+      return
+    }
+  }
+  
+  func showAdsIfPossible() {
+    let gamesNumber = UserDefaults().integer(forKey: "games")
+    if gamesNumber > 5 {
+      showAnAd()
+    } else {
+      UserDefaults().set(gamesNumber + 1, forKey: "games")
+    }
   }
   
   func spinBottle(){

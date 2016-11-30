@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AppLovinSdkKey</key>
+	<string>Vla4w-6qHI1eUap2VP30iu1a6GpW6UqcDPg8Noye4-HZT5c3Vf3CT5oeMbAT4-4INmQlTMNcLfBuloyES_R_5D</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Spin the bottle</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

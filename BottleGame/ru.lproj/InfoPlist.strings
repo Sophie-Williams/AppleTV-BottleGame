@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings\.strings
+  BottleGame
+
+  Created by Vadim Drobinin on 1/12/16.
+  Copyright © 2016 Anton Kondrashov. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Давай в бутылочку!";
+"CFBundleName" = "Давай в бутылочку!";

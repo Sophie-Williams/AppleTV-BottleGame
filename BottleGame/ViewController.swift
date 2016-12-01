@@ -14,9 +14,9 @@ class ViewController: UIViewController, CAAnimationDelegate {
   @IBOutlet weak var spinBottleButton: UIButton!
   
   @IBAction func actionButtonTap(_ sender: UIButton) {
-    showAdsIfPossible()
     spinBottle()
     spinBottleButton.isEnabled = false
+    showAdsIfPossible()
   }
   @IBOutlet var labels: [UILabel]?
   
@@ -35,7 +35,7 @@ class ViewController: UIViewController, CAAnimationDelegate {
     if ALInterstitialAd.isReadyForDisplay() {
       ALInterstitialAd.show()
       UserDefaults().set(0, forKey: "games")
-    } else{
+    } else {
       return
     }
   }
